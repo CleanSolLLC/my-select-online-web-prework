@@ -7,13 +7,14 @@ while i < collection.length
 
     passed_value = collection[i]
     true_false = yield collection[i]
+    puts true_false
     if true_false == true
       array_even << passed_value
     puts "#{array_even}"
   end
     i+=1
   end
-  collection
+  array_even
 end
 
 even_array = []
